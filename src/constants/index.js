@@ -28,6 +28,13 @@ import {
 import sol from "../assets/tech/sol.png";
 import eth from "../assets/tech/eth.png";
 import sql from "../assets/tech/sql.png";
+import op1 from "../assets/op1.jpg";
+import op2 from "../assets/op2.jpg";
+import op3 from "../assets/op3.jpg";
+import op4 from "../assets/op4.jpg";
+import metaa from "../assets/meta.png";
+import retro from "../assets/retro.jpeg";
+import outpass from "../assets/outpass.png";
 
 export const navLinks = [
   {
@@ -124,55 +131,55 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "The Coding Saga Begins",
+    company_name: "Beginning",
+    icon: op1,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Feb 2022 - Aug 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I started my journey in python and then went on to learn unity and game development.",
+      "I learned many things during this period and explored myself to the fullest.",
+      "Then after the dust settled, I found my passion in web development and began my journey of MERN stack development.",
+      "I focused on Backend development, participated in hackathons and honed my skills as a node developer",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Every journey teaches something new",
+    company_name: "Phase 1",
+    icon: op2,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Aug 2022 - Nov 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "During this period, I made many fullstack projects and also entered the open-source world",
+      "I along with my friends started some major new projects, one of them being our outpass management application",
+      "I learned many new skills , adding react, threejs, blender and cpp to my tech-stack.",
+      "Participated in developing resources for my college society and worked towards refining my skills ",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "I haven't been everywhere, but it's on my list.",
+    company_name: "Phase 2",
+    icon: op4,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Nov 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "This is where I along with my gang entered the world of metaverse and started working towards our project MetaCRAM",
+      "I had the oppurtunity to lead the back-end development of a newly established startup HonBil and worked towards making it's backend and defining it's architecture ",
+      "We finished our outpass application and rolled out it's version 1..",
+      "I participated in many web3 and metaverse hackathons ",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Still more lies ahead",
+    company_name: "Current",
+    icon: op3,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Currently I am contributing in many open-source projects, RocketChat, BoobBrainz and Ethereal-Engine to name a few",
+      "I stared learning blockchain and exploring it's vast avenues",
+      "I got collaborated with yet another startup RODHAK and have been working as it's backend developer",
+      "I still continue to explore many new things and see where this journey takes me ..",
     ],
   },
 ];
@@ -206,66 +213,74 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "MetaCRAM",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "(In progress )Created a meta-stadium with added city levels with various games and art gallery, and nfts to buy with added blender models rendered in browser using three.js and added VR functionality via WebXR api using js",
     tags: [
       {
-        name: "react",
+        name: "ThreeJs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Unity",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Blender",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Solidity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Ethereum",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: metaa,
+    source_code_link: "https://github.com/Legend101Zz/vr-project-meta-plex",
   },
   {
-    name: "Job IT",
+    name: "NITH-Portal",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Flutter application for creating outpass portal for NITH Hostels for MMCA to scrape the laboursome paper work and make the process more efficient.  ",
     tags: [
       {
-        name: "react",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "nodejs,express",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "MERN stack",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: outpass,
+    source_code_link: "https://github.com/Legend101Zz/NITH-Portal",
   },
   {
-    name: "Trip Guide",
+    name: "Retro-Nft",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A nostaglic dive into old retro-games, recraeting them with the power of threeJs and adding blockchain to create a fun nft based game",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Solidity",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "ThreeJs",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: retro,
     source_code_link: "https://github.com/",
   },
 ];

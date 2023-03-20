@@ -6,6 +6,10 @@ import { navLinks } from "../constants";
 import { menu, close } from "../assets";
 import pikachu from "../assets/pikachu.svg";
 import krishna2 from "../assets/krishna2.png";
+import op1 from "../assets/op1.jpg";
+import op2 from "../assets/op2.jpg";
+import op3 from "../assets/op3.jpg";
+import op4 from "../assets/op4.jpg";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -46,8 +50,8 @@ const Navbar = () => {
         >
           <img src={krishna2} alt="logo" className="w-20 h-20 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-            NUNU &nbsp;
-            <span className="sm:block hidden"> | POWER</span>
+            BEYOND &nbsp;
+            <span className="sm:block hidden"> | COMPUTING</span>
           </p>
         </Link>
 

@@ -173,7 +173,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Currently I am contributing in many open-source projects, RocketChat, BoobBrainz and Ethereal-Engine to name a few",
+      "Currently I am contributing in many open-source projects, RocketChat, BookBrainz and Ethereal-Engine to name a few",
       "I stared learning blockchain and exploring it's vast avenues",
       "I got collaborated with yet another startup RODHAK and have been working as it's backend developer",
       "I still continue to explore many new things and see where this journey takes me ..",

@@ -99,10 +99,7 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "git",
     icon: git,
@@ -281,6 +278,29 @@ const projects = [
       },
     ],
     image: retro,
+    Link: "https://legend101zz.github.io/pokemon-nft-retro-game/",
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "VR-Coaster",
+    description:
+      "A VR ride to explore my college campus in a new and interesting way.. link:-",
+    tags: [
+      {
+        name: "Blender",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ThreeJs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: retro,
+    Link: "https://legend101zz.github.io/pokemon-nft-retro-game/",
     source_code_link: "https://github.com/",
   },
 ];

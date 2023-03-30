@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import BIRDS from "vanta/dist/vanta.birds.min";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
@@ -36,6 +37,30 @@ const ServiceCard = ({ index, title, icon }) => (
 );
 
 const About = () => {
+  // const [vantaEffect, setVantaEffect] = useState(null);
+  // const myRef = useRef(null);
+  // useEffect(() => {
+  //   if (!vantaEffect) {
+  //     setVantaEffect(
+  //       BIRDS({
+  //         el: myRef.current,
+  //         mouseControls: true,
+  //         touchControls: true,
+  //         gyroControls: false,
+  //         minHeight: 200.0,
+  //         minWidth: 200.0,
+  //         scale: 1.0,
+  //         scaleMobile: 1.0,
+  //         color: 0xa7a3a3,
+  //         color2: 0x968a81,
+  //         backgroundColor: 0xBEBEBECC,
+  //       })
+  //     );
+  //   }
+  //   return () => {
+  //     if (vantaEffect) vantaEffect.destroy();
+  //   };
+  // }, [vantaEffect]);
   return (
     <>
       <motion.div variants={textVariant()}>

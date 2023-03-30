@@ -6,10 +6,6 @@ import { navLinks } from "../constants";
 import { menu, close } from "../assets";
 import pikachu from "../assets/pikachu.svg";
 import krishna2 from "../assets/krishna2.png";
-import op1 from "../assets/op1.jpg";
-import op2 from "../assets/op2.jpg";
-import op3 from "../assets/op3.jpg";
-import op4 from "../assets/op4.jpg";
 
 const Navbar = () => {
   const [active, setActive] = useState("");

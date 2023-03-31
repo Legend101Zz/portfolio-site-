@@ -35,6 +35,7 @@ import op4 from "../assets/op4.jpg";
 import metaa from "../assets/meta.png";
 import retro from "../assets/retro.jpeg";
 import outpass from "../assets/outpass.png";
+import cv from "../assets/Screenshot 2023-03-31 at 13.52.55.png";
 
 export const navLinks = [
   {
@@ -183,28 +184,28 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    testimonial: "Get to know more about me , here is a link to my CV",
+    name: "CV",
+    designation: "CV",
+    company: "Mrigesh Thakur",
+    image: op3,
+    link: "https://drive.google.com/file/d/17cBsMzgzeOnKsxabA_gPRGICL2RS4r0k/view?usp=share_link",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    testimonial: "Read my blogs here , I post them here occasionally",
+    name: "Blogs",
+    designation: "Blogs",
+    company: "Mrigesh Thakur",
+    image: op1,
+    link: "https://mrigeshthakur11.hashnode.dev/",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    testimonial: "I am a big time anime and manga fan , here is my myanimelist",
+    name: "Anime",
+    designation: "Anime",
+    company: "Mrigesh Thakur",
+    image: op4,
+    link: "https://myanimelist.net/profile/Legend_101",
   },
 ];
 
@@ -235,8 +236,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    Link: "https://drive.google.com/file/d/17cBsMzgzeOnKsxabA_gPRGICL2RS4r0k/view?usp=sharing",
     image: metaa,
-    source_code_link: "https://github.com/Legend101Zz/vr-project-meta-plex",
+    source_code_link: "https://github.com/Legend101Zz/metaCRAM",
   },
   {
     name: "NITH-Portal",

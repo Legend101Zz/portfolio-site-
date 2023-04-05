@@ -35,7 +35,10 @@ import op4 from "../assets/op4.jpg";
 import metaa from "../assets/meta.png";
 import retro from "../assets/retro.jpeg";
 import outpass from "../assets/outpass.png";
-import cv from "../assets/Screenshot 2023-03-31 at 13.52.55.png";
+// import cv from "../assets/Screenshot 2023-03-31 at 13.52.55.png";
+import coaster from "../assets/coaster.png";
+import college from "../assets/college.png";
+import toilink from "../assets/toilink.png";
 
 export const navLinks = [
   {
@@ -189,7 +192,7 @@ const testimonials = [
     designation: "CV",
     company: "Mrigesh Thakur",
     image: op3,
-    link: "https://drive.google.com/file/d/17cBsMzgzeOnKsxabA_gPRGICL2RS4r0k/view?usp=share_link",
+    link: "https://drive.google.com/file/d/18WC_nOzAclIALv3bzJuos3_4OnOdRtsP/view?usp=sharing",
   },
   {
     testimonial: "Read my blogs here , I post them here occasionally",
@@ -259,6 +262,7 @@ const projects = [
       },
     ],
     image: outpass,
+    Link: "https://www.youtube.com/watch?v=LZyOPmZs6xs&t=22s",
     source_code_link: "https://github.com/Legend101Zz/NITH-Portal",
   },
   {
@@ -281,7 +285,7 @@ const projects = [
     ],
     image: retro,
     Link: "https://legend101zz.github.io/pokemon-nft-retro-game/",
-    source_code_link: "https://github.com/",
+    source_code_link: "https://legend101zz.github.io/pokemon-nft-retro-game/",
   },
   {
     name: "VR-Coaster",
@@ -301,9 +305,58 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: retro,
-    Link: "https://legend101zz.github.io/pokemon-nft-retro-game/",
-    source_code_link: "https://github.com/",
+    image: coaster,
+    Link: "https://main--dashing-kitten-0d0d19.netlify.app",
+    source_code_link: "https://github.com/Legend101Zz/VR-rollerCoaster",
+  },
+  {
+    name: "VR-College",
+    description:
+      "This VR project allows users to experience a virtual college campus in full 3D. The project is designed to provide an immersive experience for users who want to explore the campus, its buildings, and surrounding areas. ",
+    tags: [
+      {
+        name: "Blender",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ThreeJs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: college,
+    Link: "https://college-vr-test.netlify.app/",
+    source_code_link: "https://github.com/Legend101Zz/vr-test-rocket-chat",
+  },
+  {
+    name: "Toi-Link",
+    description:
+      "A VR ride to explore my college campus in a new and interesting way.. link:-",
+    tags: [
+      {
+        name: "Google Maps",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NodeJs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: toilink,
+    Link: "https://toi-link.onrender.com/toilink/",
+    source_code_link:
+      "https://github.com/Legend101Zz/Google-solution-challenge-toilink",
   },
 ];
 

@@ -290,7 +290,7 @@ const projects = [
   {
     name: "VR-Coaster",
     description:
-      "A VR ride to explore my college campus in a new and interesting way.. link:-",
+      "A VR ride to explore my college campus in a new and interesting way.. ",
     tags: [
       {
         name: "Blender",

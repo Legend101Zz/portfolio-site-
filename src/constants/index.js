@@ -192,7 +192,7 @@ const testimonials = [
     designation: "CV",
     company: "Mrigesh Thakur",
     image: op3,
-    link: "https://drive.google.com/file/d/18WC_nOzAclIALv3bzJuos3_4OnOdRtsP/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1uTIWyOcnuoSwB0u9-tzMGU2oJmWR08Ca/view?usp=sharing",
   },
   {
     testimonial: "Read my blogs here , I post them here occasionally",
